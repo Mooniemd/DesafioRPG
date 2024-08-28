@@ -2,7 +2,7 @@
 namespace RPG{
     class Program{
         static void Main(){
-            
+
 Console.WriteLine("Diga-me seu nome, jovem herói!");
 string? nome = Console.ReadLine()!;
 Console.WriteLine("E qual arma será de sua escolha?");

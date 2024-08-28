@@ -1,10 +1,8 @@
 namespace RPG{
-    static class Player{
-        static Player(){
-            string? nome;
-            string? arma;
-            string? classe;
-        }
+    public static class Player{
+            public static string? nome;
+            public static string? arma;
+            public static string? classe;
         public static void dadosPlayer(){
 
 static void nomePlayer(){
