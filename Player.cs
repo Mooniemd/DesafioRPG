@@ -10,6 +10,7 @@ namespace RPG
         public static string? classe;
         public static int vida;
         public static int danoArma;
+        public static int agilidade;
 
         private static List<Tuple<string, int>> armas = new List<Tuple<string, int>>{
             Tuple.Create("machado", 3),
@@ -17,10 +18,10 @@ namespace RPG
             Tuple.Create("adaga", 1)
         };
 
-        private static List<Tuple<string, int>> classes = new List<Tuple<string, int>>{
-            Tuple.Create("barbaro", 30),
-            Tuple.Create("guerreiro", 20),  
-            Tuple.Create("assassino", 10) 
+        private static List<Tuple<string, int, int>> classes = new List<Tuple<string, int, int>>{
+            Tuple.Create("barbaro", 30, 5),
+            Tuple.Create("guerreiro", 20, 10),  
+            Tuple.Create("assassino", 10, 20) 
         };
 
         public static void dadosPlayer(){
@@ -48,7 +49,7 @@ namespace RPG
             Console.WriteLine("Perfeito, agora qual será sua classe?");
             
             foreach (var opt in classes){
-                Console.WriteLine($"{opt.Item1} - BHP: {opt.Item2}");
+                Console.WriteLine($"{opt.Item1} - BHP: {opt.Item2} - AGI: {opt.Item3}");
             }
 
             classe = Console.ReadLine()!.ToLower();
@@ -70,6 +71,7 @@ namespace RPG
                 if (opt.Item1.ToLower().Equals(classe)){
                     classeExiste = true;
                     vida = opt.Item2 + 100;
+                    agilidade = opt.Item3;
                     break;
                 }
             }
