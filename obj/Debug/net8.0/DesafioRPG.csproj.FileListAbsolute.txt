@@ -1,0 +1,15 @@
+C:\Users\Meuca\OneDrive\Documentos\GitHub\DesafioRPG\bin\Debug\net8.0\DesafioRPG.exe
+C:\Users\Meuca\OneDrive\Documentos\GitHub\DesafioRPG\bin\Debug\net8.0\DesafioRPG.deps.json
+C:\Users\Meuca\OneDrive\Documentos\GitHub\DesafioRPG\bin\Debug\net8.0\DesafioRPG.runtimeconfig.json
+C:\Users\Meuca\OneDrive\Documentos\GitHub\DesafioRPG\bin\Debug\net8.0\DesafioRPG.dll
+C:\Users\Meuca\OneDrive\Documentos\GitHub\DesafioRPG\bin\Debug\net8.0\DesafioRPG.pdb
+C:\Users\Meuca\OneDrive\Documentos\GitHub\DesafioRPG\obj\Debug\net8.0\DesafioRPG.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Meuca\OneDrive\Documentos\GitHub\DesafioRPG\obj\Debug\net8.0\DesafioRPG.AssemblyInfoInputs.cache
+C:\Users\Meuca\OneDrive\Documentos\GitHub\DesafioRPG\obj\Debug\net8.0\DesafioRPG.AssemblyInfo.cs
+C:\Users\Meuca\OneDrive\Documentos\GitHub\DesafioRPG\obj\Debug\net8.0\DesafioRPG.csproj.CoreCompileInputs.cache
+C:\Users\Meuca\OneDrive\Documentos\GitHub\DesafioRPG\obj\Debug\net8.0\DesafioRPG.sourcelink.json
+C:\Users\Meuca\OneDrive\Documentos\GitHub\DesafioRPG\obj\Debug\net8.0\DesafioRPG.dll
+C:\Users\Meuca\OneDrive\Documentos\GitHub\DesafioRPG\obj\Debug\net8.0\refint\DesafioRPG.dll
+C:\Users\Meuca\OneDrive\Documentos\GitHub\DesafioRPG\obj\Debug\net8.0\DesafioRPG.pdb
+C:\Users\Meuca\OneDrive\Documentos\GitHub\DesafioRPG\obj\Debug\net8.0\DesafioRPG.genruntimeconfig.cache
+C:\Users\Meuca\OneDrive\Documentos\GitHub\DesafioRPG\obj\Debug\net8.0\ref\DesafioRPG.dll
