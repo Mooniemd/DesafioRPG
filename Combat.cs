@@ -16,27 +16,23 @@ namespace RPG{
 
                 if (npc.vida <= 0) break;
 
-                // Calcular a chance de esquiva do jogador
-                bool esquivou = random.Next(0, 100) < Player.agilidade;
+                // Esquiva do Player
+                bool esquivou = random.Next(0, 60) < Player.agilidade;
 
-                if (esquivou)
-                {
+                if (esquivou){
                     Console.WriteLine($"{nomePlayer} esquivou do ataque de {npc.nome}!");
                 }
-                else
-                {
+                else{
                     int danoInfligidoNpc = npc.danoArma + random.Next(0, 30);
                     vidaPlayer -= danoInfligidoNpc;
                     Console.WriteLine($"{npc.nome} atinge {nomePlayer} com seu/sua {npc.arma} e deu {danoInfligidoNpc} de dano. {nomePlayer} ficou com {vidaPlayer} de vida!");
                 }
             }
 
-            if (vidaPlayer > 0)
-            {
+            if (vidaPlayer > 0){
                 Console.WriteLine($"{nomePlayer} venceu a batalha! Parabéns jovem herói.");
             }
-            else
-            {
+            else{
                 Console.WriteLine($"{npc.nome} venceu a batalha... Fujam todos, senão vamos morrer!");
             }
         }
