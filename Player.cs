@@ -15,13 +15,15 @@ namespace RPG
         private static List<Tuple<string, int>> armas = new List<Tuple<string, int>>{
             Tuple.Create("machado", 3),
             Tuple.Create("espada", 2),
-            Tuple.Create("adaga", 1)
+            Tuple.Create("adaga", 1),
+            Tuple.Create("grimorio", 7)
         };
 
         private static List<Tuple<string, int, int>> classes = new List<Tuple<string, int, int>>{
-            Tuple.Create("barbaro", 30, 5),
-            Tuple.Create("guerreiro", 20, 10),  
-            Tuple.Create("assassino", 10, 20) 
+            Tuple.Create("barbaro", 30, 2),
+            Tuple.Create("guerreiro", 20, 5),  
+            Tuple.Create("assassino", 10, 15),
+            Tuple.Create("mago", 5, 10)
         };
 
         public static void dadosPlayer(){
@@ -39,7 +41,13 @@ namespace RPG
             Console.WriteLine("E qual arma será de sua escolha?");
             
             foreach (var opt in armas){
+
+                if(opt.Item1 == "grimorio"){
+                    Console.WriteLine($"{opt.Item1} - MAN: {opt.Item2}");
+                } else{
                 Console.WriteLine($"{opt.Item1} - STR: {opt.Item2}");
+                }
+
             }
 
             arma = Console.ReadLine()!.ToLower();
