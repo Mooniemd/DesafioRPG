@@ -22,8 +22,7 @@ namespace RPG
                 Npc npc = new Npc("Gerald", "Espada", 120, 2);
                 Combat.IniciarCombate(Player.nome, Player.vida, Player.danoArma, npc, inventory);
             }
-            else
-            {
+            else{
                 Console.WriteLine("A classe e/ou a arma que você inseriu não existem!");
             }
         }

@@ -1,10 +1,8 @@
 using System;
 using System.Collections.Generic;
 
-namespace RPG
-{
-    public static class Player
-    {
+namespace RPG{
+    public static class Player{
         public static string? nome;
         public static string? arma;
         public static string? classe;
